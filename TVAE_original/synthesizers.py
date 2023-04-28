@@ -32,12 +32,7 @@ from utils.activation_fn import apply_activate
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, accuracy_score, confusion_matrix
-#from utils.evaluation import (
-#    regression_eval,
-#    classification_eval,
-#    goodness_of_fit,
-#    privacy_metrics
-#)
+
 
 import sys
 import subprocess
