@@ -1,5 +1,9 @@
-https://github.com/an-seunghwan/synthesizers/blob/main/tvae/sweep.py
 
+ """
+Reference:
+[1]: https://github.com/an-seunghwan/synthesizers/blob/main/tvae/sweep.py
+sweep.py
+"""
 
 #%%
 import os
