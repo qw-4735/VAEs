@@ -24,8 +24,7 @@ class TVAE(nn.Module):
     def __init__(self, config, device):  #def __init__(self, input_dim, latent_dim, device):  
         super(TVAE, self).__init__()
         
-        #self.input_dim = input_dim
-        #self.latent_dim = latent_dim
+        
         self.config = config
         self.device = device
         
@@ -38,7 +37,6 @@ class TVAE(nn.Module):
             nn.ReLU(),
             nn.Linear(8, config['latent_dim']*2)
         ).to(device)
-        
         
        
         """decoder"""  
